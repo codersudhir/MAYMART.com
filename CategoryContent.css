@@ -1,0 +1,71 @@
+/* Personal Care -> Hair Care */
+.row {
+    margin-left: 0px;
+   }
+   
+   .my-head {
+       padding-left: 16px;
+       padding-right: -20px;
+       width: 100%;
+   }
+   .my-head-item-left {
+       width: 25%;
+   }
+   .my-head-item-right {
+       width: 75%;
+   }
+   
+   .badge {
+       height: 20px;
+       margin-bottom: 5px;
+       
+   }
+   .product {
+    width: 205px;
+    height: 250px;
+    padding-top: 10px;
+    margin-left: 20px;
+    font-style: inherit;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+   
+   .product-buy {
+    width: 100%;
+   }
+   .heading{
+       color: rgb(148, 143, 143);
+       margin-top: 15px;
+       margin-left: 20px;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+   .my-content-right{
+    width: 85%;
+}
+   @media screen and (max-width: 991px) {
+    .my-content-left{
+        display: none;
+    }
+    .my-content-right{
+        width: 100%;
+    }
+    .my-head-item-left{
+        display: none;
+    }
+    .my-head-item-right{
+        display: none;
+    }
+    .staples{
+        display: none;
+    }
+    .bev{
+        display: none;
+    }
+    .fruitsandveggies{
+        display: none;
+    }
+    body{
+        margin-top: 100px;
+        padding: 0px 10px;
+    }
+  }
+  

@@ -1,0 +1,74 @@
+
+
+body{
+    margin-top: 150px;
+    
+  }
+  .space{
+    margin-left: 20px
+  }
+  .dash{
+    text-decoration : line-through;
+  }
+  .topcat{
+    display: flex;
+    flex-direction: row;
+  
+    justify-content: space-around;
+  }
+  .card22{
+    background: #fbe0c4;
+  }
+  .card23{
+    background: #caf7e3;
+  }
+  .ad{
+    width: 98%;
+  }
+  .c{
+    width: 100%
+  }
+  .img-responsive{
+    width: 100%;
+  }
+  .badge {
+  
+  top: 15px; left: 19px; font-size:9px; position:absolute;
+  }
+  .aj{
+    width : 100%;
+  }
+  .ad_1{
+    justify-content: center;
+  }
+  .card-deck{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .twoh{
+    width:200px;
+  }
+  .seven{
+      width: 70%;
+  }
+  .ad_2{
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .three{
+      width: 300px;
+  }
+  @media screen and (max-width:991px) {
+    .hideInmob{
+      display: none;
+    }
+  }
+  @media screen and (max-width:900px) {
+    body{
+      margin-top: 100px;
+      padding: 0%;
+    }
+    .c{
+      height: 130px;
+    }
+  }

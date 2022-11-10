@@ -1,0 +1,107 @@
+@media screen and (max-width:1130px) {
+    .mbl{
+        display: none;
+    }
+    .form{
+        padding: 15px;
+        margin-left: 50px;
+    }
+    .lgncont{
+        border-radius: 0%;
+        box-shadow: none;
+    }
+    body{
+        background: none;
+        
+    }
+}
+@media screen and (max-width:1130px) {
+    
+    .formbd{
+        padding: 0%!important;
+    }
+    .lgncont{
+        display: block;
+        margin: 20px!important;
+        justify-content: center;
+        
+    }
+    .form{
+        padding: 0%!important;
+        margin: 0%!important;
+    }
+    .lgnform{
+        width: 100%;
+    }
+    
+    
+}
+
+.lgncont{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row!important;
+    margin-top: 35px;
+
+}
+.banner{
+    border-radius: 15px 0px 0px 15px!important;
+}
+
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.lgnform{
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    border: 2px solid rgba(230, 230, 230, 0.295);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 100%;
+    width: 100%;
+    margin-right: 0%!important;
+
+}
+.lgnform input[type=number]{
+    border: none!important;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    outline: none;
+}
+::placeholder{
+    color: rgba(31, 31, 31, 0.178);
+}
+.error{
+    display: none;
+}
+.errtrigger{
+    display: inline;
+    color:  rgb(255, 0, 0);
+}
+.btn1{
+    border-radius: 50%;
+    padding: 10px;
+    width: 45px;
+    outline: none;
+    
+}
+.btnalign{
+    display: flex;
+    justify-content: center;
+    outline: none;
+    border: none;
+}
