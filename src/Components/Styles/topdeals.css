@@ -1,0 +1,26 @@
+.container-1 {
+    width: 100%;
+    display: flex;
+    border: 1px solid none;
+    padding: 1%;
+    justify-content: space-between;
+}
+
+.products-1 {
+    width: 200px;
+    border-radius: 10px;
+    border: 1px solid 	rgb(200,200,200);
+    padding: 1%;
+    transition: transform .2s;
+}
+
+.productImg {
+    border: 1px solid none;
+    transition: transform .2s;
+    margin-bottom: 5px;
+}
+.productImg :hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.1); 
+}

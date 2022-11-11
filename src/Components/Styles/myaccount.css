@@ -1,0 +1,20 @@
+.myaccount {
+    width: 80%;
+    border: 1px solid red;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.myaccount-1 {
+    width: 30%;
+    border: 1px solid black;
+}
+.myaccount-1 > img {
+    width: 100px;
+}
+
+.myaccount-2 {
+    width: 30%;
+    border: 1px solid black;
+}

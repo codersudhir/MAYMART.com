@@ -1,0 +1,8 @@
+.searchmenu {
+    width: 100%;
+    display: flex;
+    border: 1px solid none;
+    background-color: rgb(236,236,237);
+    justify-content: center;
+    justify-content: space-around;
+}

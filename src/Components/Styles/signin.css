@@ -1,0 +1,21 @@
+.container-signin {
+    width: 80%;
+    border: 1px solid none;
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    background-color: rgb(246,246,247);
+}
+.signin-area {
+    width: 40%;
+    border: 1px solid none;
+    margin-top: 50px;
+    margin-left: 200px;
+    text-align: left;
+}
+.container-signin > img {
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
