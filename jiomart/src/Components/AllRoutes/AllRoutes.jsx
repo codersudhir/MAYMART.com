@@ -20,7 +20,7 @@ import Signup from '../Pages/Signup'
 import ProductPage from '../Common/Logo/products'
 import PrivateRoute from './PrivateRoutes'
 import ProductPage2 from '../Common/Logo/products2'
-import Addtocart from './Addtocart'
+import Addproducts from './Addproducts'
 
 const AllRoutes = () => {
   return (
@@ -45,7 +45,7 @@ const AllRoutes = () => {
           <Route path='/hair' element={<Hair />} />
           <Route path='/productpage' element={<ProductPage />} />
           <Route path='/productpage2' element={<ProductPage2 />} />
-          <Route path='/addtocart' element={<Addtocart />} />
+          <Route path='/addproducts' element={<Addproducts />} />
         </Routes>
     </div>
   )

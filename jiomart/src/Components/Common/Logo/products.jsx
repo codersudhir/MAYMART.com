@@ -1,18 +1,24 @@
 import axios from "axios"
 import { useState,useEffect } from "react"
-import { Grid,Image,GridItem ,Text,Button,Flex} from '@chakra-ui/react'
+import { Grid,Image,GridItem ,Text,Button,Flex,Alert,
+  AlertIcon,
+  AlertTitle,
+  AlertDescription,} from '@chakra-ui/react'
+
 
 const Getdada=(page)=>{
-    return axios.get(`http://localhost:8080/products?catagory=dryfruits&_limit=6&_page=${page}`)
+    return axios.get(`https://mymart.onrender.com/products?catagory=dryfruits&_limit=6&_page=${page}`)
   }
 
 function ProductPage(){
 
     const [data,setdata]=useState([])
     const [page,setpage]=useState(1)
+    const [Alet,setAlert]=useState(false)
     useEffect(()=>{
       Getdada(page).then((res)=>{
         setdata(res.data)
+        setAlert(false)
       },[page])
     })
 
@@ -20,9 +26,8 @@ function ProductPage(){
     const product=(el)=>{
       storage.push(el)
       localStorage.setItem("storage",JSON.stringify(storage))
-      window.location.href="/Cart"
+      setAlert(true)
     }
-  
   
 
     return  <Flex style={{backgroundColor:"#f3f3f3"}}>
@@ -36,6 +41,10 @@ function ProductPage(){
         <Button  h="25px" border="1px solid #008ecc" backgroundColor="white" colorScheme='teal' variant='ghost'>Discount </Button >
         <Button  h="25px" border="1px solid #008ecc" backgroundColor="white" colorScheme='teal' variant='ghost'>All Products</Button >
     </div>
+    {Alet? <Alert status='success' variant='solid' width="500px" marginLeft="20%" marginTop="10px">
+    <AlertIcon />
+       Product Added to Cart
+  </Alert>:null}
     <Grid
     templateColumns={{ lg: 'repeat(4, 1fr)', md: 'repeat(2, 1fr)', sm: 'repeat(1, 1fr)' }}
     gap={4}

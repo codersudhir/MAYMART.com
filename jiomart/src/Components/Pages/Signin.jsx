@@ -46,7 +46,8 @@ const Signin = () => {
          />
          <Button backgroundColor="#66bbe0" width="90%" marginTop="35px" onClick={handlecart} >Order History</Button>
          <Button backgroundColor="#66bbe0" width="90%" marginTop="10px" >Delivery Adresses</Button>
-         <Button backgroundColor="#66bbe0" width="90%" marginTop="10px"  marginBottom="10px" onClick={userLogout}  >Log Out</Button>
+         <Button backgroundColor="#66bbe0" width="90%" marginTop="10px"   onClick={userLogout}  >Log Out</Button>
+         <Button backgroundColor="#66bbe0" width="90%" marginTop="10px"  marginBottom="10px"   ><NavLink to="/addproducts">Add Products To Database</NavLink></Button>
          
        </div>
        <div style={{width:"55%"}}><Image src="public\accinfo.png" height="250px" /></div>

@@ -1,4 +1,4 @@
-import { Button, Heading, Text } from '@chakra-ui/react'
+import { Button, Heading, Text,Alert,AlertIcon } from '@chakra-ui/react'
 import React from 'react'
 import { ArrowLeftIcon, ArrowRightIcon, WarningIcon } from '@chakra-ui/icons'
 import style from '../Styles/topdeals.css'
@@ -8,16 +8,18 @@ import { useState,useEffect } from 'react'
 
 
 const Getdada=(page)=>{
-  return axios.get(`http://localhost:8080/products?topdeals=true&_limit=6&_page=${page}`)
+  return axios.get(`https://mymart.onrender.com/products?topdeals=true&_limit=6&_page=${page}`)
 }
 
 
 const TopDeals = () => {
   const [data,setdata]=useState([])
   const [page,setpage]=useState(1)
+  const [Alet,setAlert]=useState(false)
   useEffect(()=>{
     Getdada(page).then((res)=>{
       setdata(res.data)
+      setAlert(false)
     },[page])
   })
 
@@ -27,13 +29,17 @@ const TopDeals = () => {
   const product=(el)=>{
     storage.push(el)
     localStorage.setItem("storage",JSON.stringify(storage))
-    window.location.href="/Cart"
+    setAlert(true)
   }
 
   
 
   return (
     <div>
+       {Alet? <Alert status='success' variant='solid' width="500px" marginLeft="30%" marginTop="10px">
+    <AlertIcon />
+       Product Added to Cart
+  </Alert>:null}
     <Heading textAlign='left'as='h4' size='md' marginBottom='20px' marginLeft='20px'>Top Deals</Heading>
     <div className='container-1'>
       <button onClick={()=>setpage(page-1)}><ArrowLeftIcon/></button>
