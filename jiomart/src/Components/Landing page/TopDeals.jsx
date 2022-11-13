@@ -25,7 +25,6 @@ const TopDeals = () => {
    
   let storage=[]||JSON.stringify(localStorage.getItem("storage"))
   const product=(el)=>{
-    console.log(el)
     storage.push(el)
     localStorage.setItem("storage",JSON.stringify(storage))
     window.location.href="/Cart"

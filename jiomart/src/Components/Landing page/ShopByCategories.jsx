@@ -1,5 +1,6 @@
 import { Button, Heading, Text } from '@chakra-ui/react'
 import React from 'react'
+import { useNavigate,Link } from 'react-router-dom'
 import style from '../Styles/shopbycategories.css'
 import image1 from '../Others/shopbycategoriesImg/personal_care.png'
 import image2 from '../Others/shopbycategoriesImg/baby care.png'
@@ -9,15 +10,23 @@ import image5 from '../Others/shopbycategoriesImg/Home care.png'
 import image6 from '../Others/shopbycategoriesImg/beverages.png'
 import image7 from '../Others/shopbycategoriesImg/vegitables.png'
 
+
+
+
 const TopDeals = () => {
+    const personal=()=>{
+        window.location.href="/productpage2"
+    }
+  
+    
   return (
     <div>
         <Heading textAlign='left'as='h4' size='md' marginBottom='20px' marginLeft='20px'>Shop From Top Categories</Heading>
     <div className='container-x'>
         <div className='products-x'>
-            <div className='productImg1'> <img src={image1} alt="personal care" /> </div> 
+            <div className='productImg1'> <img src={image1} alt="personal care" onClick={personal} /> </div> 
             <div style={{textAlign: 'left'}}>
-            <Text textAlign='center' fontSize='sm' fontWeight='bold'>Personal Care</Text>
+            <Text textAlign='center' fontSize='sm' fontWeight='bold'><Link to="/productpage">Personal Care</Link></Text>
             </div>
         </div>
         <div className='products-x'>

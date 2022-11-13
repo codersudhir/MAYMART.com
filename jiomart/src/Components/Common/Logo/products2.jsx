@@ -3,11 +3,10 @@ import { useState,useEffect } from "react"
 import { Grid,Image,GridItem ,Text,Button,Flex} from '@chakra-ui/react'
 
 const Getdada=(page)=>{
-    return axios.get(`http://localhost:8080/products?catagory=dryfruits&_limit=6&_page=${page}`)
+    return axios.get(`http://localhost:8080/products?topdeals=true&_limit=6&_page=${page}`)
   }
-  
 
-function ProductPage(){
+function ProductPage2(){
 
     const [data,setdata]=useState([])
     const [page,setpage]=useState(1)
@@ -19,17 +18,16 @@ function ProductPage(){
 
     let storage=[]||JSON.stringify(localStorage.getItem("storage"))
     const product=(el)=>{
-      console.log(el)
       storage.push(el)
       localStorage.setItem("storage",JSON.stringify(storage))
       window.location.href="/Cart"
     }
   
-    
+  
 
     return  <Flex style={{backgroundColor:"#f3f3f3"}}>
-        <div style={{border:"1px solid red",width:"30%"}}>
-
+        <div style={{width:"30%"}}>
+          <img src="public\categories.png" alt="filter"  style={{marginLeft:"5%"}} />
         </div>
         <div style={{width:"80%"}}>
         <div style={{display:"flex",marginLeft:"600px",marginTop:"25px",gap:"10px"}}>
@@ -43,6 +41,7 @@ function ProductPage(){
     gap={4}
     pl={20}
     marginTop="25px"
+    marginBottom="50"
   >
     {
       data.map((item, i) => {
@@ -58,10 +57,8 @@ function ProductPage(){
     }
   </Grid>
         </div>
-         
-
     </Flex>
     
    
 }
-export default ProductPage
+export default ProductPage2

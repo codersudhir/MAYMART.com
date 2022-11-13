@@ -24,7 +24,7 @@ const ShopFromTop = () => {
         <Text fontSize='xs' fontWeight='bold'>FRUITS & VEG</Text>
       </div>
       <div className='products'>
-        <img style={{border:'2px solid blue'}} src="https://bit.ly/3Pp5BNU" alt="Beverage Corner" />
+        <img style={{border:'2px solid blue'}} src="https://bit.ly/3Pp5BNU" alt="Beverage Corner"  onClick={handlefruitsAndveg} />
         <Text fontSize='xs' fontWeight='bold'>BEVERAGE CORNER</Text>
       </div>
       <div className='products'>

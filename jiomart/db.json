@@ -1,0 +1,155 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Nivea Soft Light Peppy Pomegranate Hands & Body 200 ml",
+      "price": 140,
+      "mrp": 349,
+      "stock": true,
+      "topdeals": true,
+      "img": "https://www.jiomart.com/images/product/600x600/492392721/nivea-soft-peppy-pomegranate-cream-200-ml-product-images-o492392721-p590831521-0-202203150542.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Colgate Strong Teeth Toothpaste 500 g Saver Pack",
+      "price": 186,
+      "mrp": 266,
+      "stock": true,
+      "topdeals": true,
+      "img": "https://www.jiomart.com/images/product/600x600/491055460/colgate-strong-teeth-dental-cream-toothpaste-500-g-saver-pack-product-images-o491055460-p491055460-0-202203151056.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Tide Jasmine & Rose Detergent Powder 5 kg (Get Extra 1 kg Free)",
+      "price": 650,
+      "mrp": 700,
+      "stock": true,
+      "topdeals": true,
+      "img": "https://www.jiomart.com/images/product/600x600/491055460/colgate-strong-teeth-dental-cream-toothpaste-500-g-saver-pack-product-images-o491055460-p491055460-0-202203151056.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Tide Jasmine & Rose Detergent Powder 5 kg (Get Extra 1 kg Free)",
+      "price": 65,
+      "mrp": 109,
+      "stock": true,
+      "topdeals": true,
+      "img": "https://www.jiomart.com/images/product/600x600/490003834/maggi-2-minute-masala-instant-noodles-560-g-product-images-o490003834-p490003834-0-202203150702.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Surf Excel Matic Front Load Detergent Powder 6 kg",
+      "price": 1325,
+      "mrp": 1475,
+      "stock": true,
+      "topdeals": true,
+      "img": "https://www.jiomart.com/images/product/600x600/492848164/surf-excel-matic-front-load-detergent-powder-6-kg-product-images-o492848164-p591223797-0-202204291101.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Surf Excel Matic Front Load Detergent Powder 6 kg",
+      "price": 140,
+      "mrp": 160,
+      "stock": true,
+      "topdeals": true,
+      "img": "https://www.jiomart.com/images/product/600x600/491373488/britannia-nutrichoice-hi-fibre-digestive-biscuits-1-kg-product-images-o491373488-p491373488-0-202209281320.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Gowardhan Cow Ghee 1 L (Pack of 2) Pouch With Lock & Seal",
+      "price": 240,
+      "mrp": 60,
+      "stock": true,
+      "topdeals": true,
+      "img": "https://www.jiomart.com/images/product/600x600/491895396/gowardhan-cow-ghee-1-l-pack-of-2-pouch-with-lock-seal-container-product-images-o491895396-p590052513-0-202203171122.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Pillsbury Chakki Fresh Atta / Flour 10 kg",
+      "price": 199,
+      "mrp": 200,
+      "catagory": "dryfruits",
+      "img": "https://www.jiomart.com/images/product/600x600/491214648/emperor-seedless-dates-500-g-pack-of-2-product-images-o491214648-p491214648-0-202203170756.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Good Life Fig Anjeer 100 g / daily",
+      "price": 129,
+      "mrp": 150,
+      "catagory": "dryfruits",
+      "img": "https://www.jiomart.com/images/product/600x600/491186643/good-life-fig-anjeer-100-g-product-images-o491186643-p491186643-0-202205191716.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Shree Value Pack Plain Kaju 200 g",
+      "price": 195,
+      "mrp": 250,
+      "catagory": "dryfruits",
+      "img": "https://www.jiomart.com/images/product/600x600/491539459/shree-value-pack-plain-kaju-200-g-product-images-o491539459-p491539459-0-202203150704.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Pillsbury Chakki Fresh Atta / Flour 10 kg",
+      "price": 51,
+      "mrp": 55,
+      "catagory": "dryfruits",
+      "img": "https://www.jiomart.com/images/product/600x600/490000029/lion-deseeded-wet-dates-200-g-product-images-o490000029-p490000029-0-202203170505.jpg"
+    },
+    {
+      "id": 12,
+      "title": "24    Mantra Organic Flax   Seeds 200 g",
+      "price": 69,
+      "mrp": 75,
+      "catagory": "dryfruits",
+      "img": "https://www.jiomart.com/images/product/600x600/490922083/24-mantra-organic-flax-seeds-200-g-product-images-o490922083-p490922083-0-202205172234.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Wonderland Foods Roasted & Salted Cashews 200 g ",
+      "price": 499,
+      "mrp": 599,
+      "catagory": "dryfruits",
+      "img": "https://www.jiomart.com/images/product/600x600/491432700/wonderland-foods-roasted-salted-cashews-200-g-pack-of-2-product-images-o491432700-p491432700-0-202209221819.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Best Farms Sabja Seeds 100 g",
+      "price": 54,
+      "mrp": 60,
+      "catagory": "dryfruits",
+      "img": "https://www.jiomart.com/images/product/600x600/491418535/best-farms-sabja-seeds-100-g-product-images-o491418535-p491418535-0-202203171137.jpg"
+    },
+    {
+      "id": 15,
+      "title": "Nutraj Premium California Roasted & Salted Pistachios 200 g",
+      "price": 239,
+      "mrp": 349,
+      "catagory": "dryfruits",
+      "img": "https://www.jiomart.com/images/product/600x600/491296227/nutraj-california-roasted-salted-pistachios-200-g-product-images-o491296227-p491296227-0-202203152039.jpg"
+    },
+    {
+      "id": 16,
+      "title": "Satyam Khopra 200 g",
+      "price": 108,
+      "mrp": 108,
+      "catagory": "dryfruits",
+      "img": "https://www.jiomart.com/images/product/600x600/490675848/satyam-khopra-200-g-product-images-o490675848-p590033680-0-202203151404.jpg"
+    },
+    {
+      "title": "Dates Imported (Approx 400 g - 500 g)",
+      "price": "400",
+      "mrp": "500",
+      "category": "dryfruits",
+      "img": "https://www.jiomart.com/images/product/600x600/590002744/dates-imported-approx-400-g-500-g-product-images-o590002744-p590002744-0-202203170240.jpg",
+      "id": 17
+    },
+    {
+      "title": "Snackify Dry Fruits Walnut Kernels Without Shell Premium",
+      "price": 200,
+      "mrp": 355,
+      "category": "dryfruits",
+      "img": "https://www.jiomart.com/images/product/600x600/rv9fpr5eev/snackify-dry-fruits-walnut-kernels-without-shell-premium-vacuum-pack-400-g-200-g-x-2-product-images-orv9fpr5eev-p590835820-0-202110261642.jpg",
+      "id": 20
+    }
+  ]
+}
